@@ -16,7 +16,7 @@ ax = fig.add_subplot(111, projection="3d")
 plt.style.use("dark_background")
 
 # Initialize line and point
-line, = ax.plot([], [], [], lw=0.8, color="cyan")
+line, = ax.plot([], [], [], lw=0.8, color="blue")
 point, = ax.plot([], [], [], "o", color="red", markersize=3)
 
 # Set axes limits
